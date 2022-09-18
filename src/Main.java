@@ -11,6 +11,7 @@ public class Main {
         for (i = 6; i > 0; i--) {
             for (o = 1; o <= value; o++) {
                 if (i * o == value) {
+                    System.out.println("Числа");
                     System.out.println(i + " * " + o);
                 }
             }
