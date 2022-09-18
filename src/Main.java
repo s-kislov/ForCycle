@@ -12,6 +12,7 @@ public class Main {
             for (o = 1; o <= value; o++) {
                 if (i * o == value) {
                     System.out.println("Числа");
+                    System.out.println();
                     System.out.println(i + " * " + o);
                 }
             }
